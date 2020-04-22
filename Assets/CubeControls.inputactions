@@ -1,0 +1,39 @@
+{
+    "name": "CubeControls",
+    "maps": [
+        {
+            "name": "Gameplay",
+            "id": "ee826172-d1f6-4c23-96e0-4c844f61f165",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "30199564-dc29-4673-9d62-e49cf8a15513",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "b54332f9-4e15-4ee4-abae-e87410324fe0",
+                    "path": "<Gamepad>/rightStick",
+                    "interactions": "",
+                    "processors": "StickDeadzone(min=0.2)",
+                    "groups": "CubeControls",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "CubeControls",
+            "bindingGroup": "CubeControls",
+            "devices": []
+        }
+    ]
+}
