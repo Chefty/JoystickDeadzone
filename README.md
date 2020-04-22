@@ -1,2 +1,2 @@
 # JoystickDeadzone
- Test repository to debug joystick deadzone on Unity
+Test project to debug joystick deadzone on Unity
